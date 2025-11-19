@@ -78,10 +78,7 @@ function filterActiveUsers(users:User[]):User[]{
     return users.filter((user:User)=>user.isActive);
 }
 
-const users:User[]=[
-    { id: 1, name: 'Rakib', email: 'rakib@example.com', isActive: true },
-  { id: 2, name: 'Rumi', email: 'rumi@example.com', isActive: true },
-]
+
 
 
 

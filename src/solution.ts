@@ -58,11 +58,7 @@ function filterByRating(items:Item[]):Item[]{
     return items.filter(item=>item.rating >= 4);
 }
 
-const books:Item[]=[
-    { title: 'Book A', rating: 4.5 },
-    { title: 'Book B', rating: 3.2 },
-    { title: 'Book C', rating: 5.0 },
- ];
+
 
 
 
@@ -105,12 +101,7 @@ function printBookDetails(book:Book):void{
     console.log(`title:${book.title},author:${book.author},publishedYear:${book.publishedYear},isavailable:${availabilityStatus}`);
 }
 
-const myBook:Book={
-     title: 'The Great Gatsby',
-  author: 'F. Scott Fitzgerald',
-  publishedYear: 1925,
-  isAvailable: true,
-};
+
 
 
 
@@ -135,8 +126,7 @@ function getUniqueValues(array1:(string|number)[],array2:(string|number)[]){
         
 };
 
-const array1 = [1, 2, 3, 4, 5];
-const array2 = [3, 4, 5, 6, 7];
+
 
 
 
@@ -166,8 +156,4 @@ function calculateTotalPrice(products:Product[]):number{
     },0);
     return total;
 };
-const products=[
-      { name: 'Pen', price: 10, quantity: 2 },
-  { name: 'Notebook', price: 25, quantity: 3, discount: 10 },
-  { name: 'Bag', price: 50, quantity: 1, discount: 20 },
-];
+
